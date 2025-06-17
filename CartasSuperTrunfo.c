@@ -75,12 +75,12 @@ int main() {
 
     printf("Carta 1\n");                         //Imprime título da carta 
     printf("Estado: %c\n", estado1);             // Imprime o Estado
-    printf("Código: "%s\n", cod1);               // Imprime o Código
-    printf("Cidade: "%s\n", cidade1);            // Imprime a Cidade   
-    printf("População: "%d\n", pop1);            // Imprime a População 
-    printf("Área: "%d\n", area1);                // Imprime a Área
-    printf("PIB: "%d\n", pib1);                  // Imprime o PIB
-    printf("Pontos Turísticos: "%d\n", pt1);     // Imprime o número de Pontos Turísticos
+    printf("Código: %s\n", cod1);               // Imprime o Código
+    printf("Cidade: %s\n", cidade1);            // Imprime a Cidade   
+    printf("População: %d\n", pop1);            // Imprime a População 
+    printf("Área: %d\n", area1);                // Imprime a Área
+    printf("PIB: %d\n", pib1);                  // Imprime o PIB
+    printf("Pontos Turísticos: %d\n", pt1);     // Imprime o número de Pontos Turísticos
     
     
     return 0;
