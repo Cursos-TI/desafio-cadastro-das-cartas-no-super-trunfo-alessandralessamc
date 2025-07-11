@@ -97,24 +97,24 @@ int main() {
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
     // Carta 1
-    printf("\nCarta 1:\n");                               // Imprime título da carta 
+    printf("\nCarta 1:\n");                              // Imprime título da carta 
     printf("Estado: %s\n", estado1);                     // Imprime o Estado
     printf("Código: %s\n", cod1);                        // Imprime o Código
-    printf("Cidade: %s\n", cidade1);                     // Imprime a Cidade   
+    printf("Nome da Cidade: %s\n", cidade1);             // Imprime a Cidade   
     printf("População: %d\n", pop1);                     // Imprime a População 
     printf("Área: %.2f km²\n", area1);                   // Imprime a Área
     printf("PIB: %.2f bilhões de reais\n", pib1);        // Imprime o PIB
     printf("Número de Pontos Turísticos: %d\n", pt1);    // Imprime o número de Pontos Turísticos
     
     // Carta 2
-    printf("\nCarta 2:\n");                               // Imprime título da carta 
+    printf("\nCarta 2:\n");                              // Imprime título da carta 
     printf("Estado: %s\n", estado2);                     // Imprime o Estado
     printf("Código: %s\n", cod2);                        // Imprime o Código
-    printf("Cidade: %s\n", cidade2);                     // Imprime a Cidade   
+    printf("Nome da Cidade: %s\n", cidade2);             // Imprime a Cidade   
     printf("População: %d\n", pop2);                     // Imprime a População 
     printf("Área: %.2f km²\n", area2);                   // Imprime a Área
     printf("PIB: %.2f bilhões de reais\n", pib2);        // Imprime o PIB
-    printf("Número de Pontos Turísticos: %d\n", pt2);    // Imprime o número de Pontos Turísticos
+    printf("Número de Pontos Turísticos: %d\n\n", pt2);  // Imprime o número de Pontos Turísticos
     
     return 0;
 }
