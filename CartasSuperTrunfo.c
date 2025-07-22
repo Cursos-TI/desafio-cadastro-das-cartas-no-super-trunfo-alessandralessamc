@@ -106,7 +106,7 @@ int main() {
     scanf("%d", &pt2);
     
   //    *  Cálculo da Densidade Populacional: População / Área (`float`)
-    dens1 = pop1 / area1;
+    dens1 = (float)pop1 / area1;
 
   //    *  Cálculo do PIB per Capita: PIB / População (`float`)
     ppc1 = ( pib1 * 1000000000 ) / pop1;
@@ -139,7 +139,7 @@ int main() {
     printf("Super Poder: %.2f\n", SuperPower1);              // Imprime o Super Poder
 
   //    *  Cálculo da Densidade Populacional: População / Área (`float`) - Carta 2
-    dens2 = pop2 / area2;
+    dens2 = (float)pop2 / area2;
 
   //    *  Cálculo do PIB per Capita: PIB / População (`float`) - Carta 2
     ppc2 = ( pib2 * 1000000000 ) / pop2;
